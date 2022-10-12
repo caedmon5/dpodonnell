@@ -23,7 +23,7 @@ a {
     color: inherit /* $theme-primary; */ ;
     &:hover,
     &:focus {
-        color: darken(inherit, 10%);
+        color: inherit;
     }
 }
 
