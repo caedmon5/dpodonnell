@@ -21,6 +21,7 @@ hr.light {
 a {
     @include transition-all;
     color: inherit /* $theme-primary; */ ;
+    text-decoration: underline;
     &:hover,
     &:focus {
         color: inherit;
