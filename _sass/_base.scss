@@ -53,7 +53,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: $theme-faded;
 }
 
 section {
@@ -113,7 +113,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: $theme-light;
             &:hover,
             &:focus {
                 color: white;
@@ -121,7 +121,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white);
+            color: $theme-light;
             &:hover {
                 color: white;
                 font-weight: bold;
